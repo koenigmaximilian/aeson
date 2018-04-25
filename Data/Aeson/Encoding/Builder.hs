@@ -36,7 +36,7 @@ module Data.Aeson.Encoding.Builder
     ) where
 
 import Prelude ()
-import Prelude.Compat
+import Prelude.Compat hiding ((<>))
 
 import Data.Aeson.Internal.Time
 import Data.Aeson.Types.Internal (Value (..))
